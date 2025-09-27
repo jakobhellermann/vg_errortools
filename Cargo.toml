@@ -14,4 +14,4 @@ tokio = ["dep:tokio"]
 
 [dependencies]
 tokio = {version = "1.19",features = ["fs"], optional = true}
-thiserror = "1.0"
+thiserror = "2.0"
