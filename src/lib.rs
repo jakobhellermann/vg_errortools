@@ -30,7 +30,7 @@ impl FatIOError {
 }
 
 impl Display for FatIOError {
-    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
         write!(
             f,
             "Operating on file '{}' failed with error {}",
